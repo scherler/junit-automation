@@ -1,0 +1,62 @@
+=== Starting testBuildDetailsRetrievalWithoutOptionalPlugins(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionRjrTest)
+Will load plugins: RealJenkinsRuleInit.jpi antisamy-markup-formatter.jpi apache-httpcomponents-client-4-api.jpi bouncycastle-api.jpi branch-api.jpi caffeine-api.jpi cloudbees-analytics.jpi cloudbees-folder.jpi cloudbees-license.jpi cloudbees-pipeline-explorer.jpl commons-lang3-api.jpi commons-text-api.jpi configuration-as-code.jpi cors-filter.jpi credentials-binding.jpi credentials.jpi display-url-api.jpi durable-task.jpi git-client.jpi instance-identity.jpi ionicons-api.jpi jackson2-api.jpi jakarta-activation-api.jpi jakarta-mail-api.jpi javax-activation-api.jpi jaxb.jpi mailer.jpi mina-sshd-api-common.jpi mina-sshd-api-core.jpi nectar-license.jpi okhttp-api.jpi pipeline-groovy-lib.jpi pipeline-model-api.jpi pipeline-model-definition.jpi pipeline-model-extensions.jpi pipeline-stage-step.jpi pipeline-stage-tags-metadata.jpi plain-credentials.jpi scm-api.jpi script-security.jpi snakeyaml-api.jpi ssh-credentials.jpi structs.jpi timestamper.jpi token-macro.jpi trilead-api.jpi variant.jpi workflow-api.jpi workflow-basic-steps.jpi workflow-cps.jpi workflow-durable-task-step.jpi workflow-job.jpi workflow-scm-step.jpi workflow-step-api.jpi workflow-support.jpi
+JENKINS_HOME=/src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840 SUREFIRE_FORK_NUMBER=1 /src/opt/jdk-11.0.16/bin/java -ea -Dhudson.Main.development=true -DRealJenkinsRule.location=file:/home/tscherler/.m2/repository/org/jenkins-ci/main/jenkins-test-harness/2064.vcd3b_b_8f3f2b_a_/jenkins-test-harness-2064.vcd3b_b_8f3f2b_a_.jar -DRealJenkinsRule.description=testBuildDetailsRetrievalWithoutOptionalPlugins(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionRjrTest) -DRealJenkinsRule.token=6e391d79-973b-4452-a2c6-233598990c92 -Dwinstone.portFileName=/src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/jenkins-port749416768920239436.txt -jar /home/tscherler/.m2/repository/org/jenkins-ci/main/jenkins-war/2.414.1-cb-15/jenkins-war-2.414.1-cb-15.war --enable-future-java --httpPort=0 --httpListenAddress=127.0.0.1 --prefix=/jenkins
+Running from: /home/tscherler/.m2/repository/org/jenkins-ci/main/jenkins-war/2.414.1-cb-15/jenkins-war-2.414.1-cb-15.war
+webroot: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/war
+2023-09-22 08:35:38.872+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2023-09-22 08:35:39.617+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 11.0.16+11-LTS-199
+2023-09-22 08:35:40.023+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2023-09-22 08:35:40.111+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2023-09-22 08:35:40.771+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840 found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2023-09-22 08:35:40.915+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@3e15bb06{Jenkins v2.414.1-cb-15,/jenkins,file:///src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j%20h6672988687632459840/war/,AVAILABLE}{/src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/war}
+2023-09-22 08:35:40.935+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@70f59913{HTTP/1.1, (http/1.1)}{127.0.0.1:46313}
+2023-09-22 08:35:40.954+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started Server@49c6c24f{STARTING}[10.0.15,sto=0] @2400ms
+2023-09-22 08:35:40.958+0000 [id=25]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2023-09-22 08:35:41.214+0000 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2023-09-22 08:35:41.563+0000 [id=33]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/plugins/javax-mail-api.jpi
+2023-09-22 08:35:41.608+0000 [id=33]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/plugins/sshd.jpi
+2023-09-22 08:35:42.235+0000 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/plugins/command-launcher.jpi
+2023-09-22 08:35:42.245+0000 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/plugins/jdk-tool.jpi
+2023-09-22 08:35:42.660+0000 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2023-09-22 08:35:43.002+0000 [id=44]	SEVERE	jenkins.InitReactorRunner$1#onTaskFailed: Failed Loading plugin Pipeline: Declarative v2.2144.v077a_d1928a_40 (pipeline-model-definition)
+java.io.IOException: Failed to load: Pipeline: Declarative (pipeline-model-definition 2.2144.v077a_d1928a_40)
+ - Plugin is missing: workflow-multibranch (746.v05814d19c001)
+ - Plugin is missing: pipeline-input-step (468.va_5db_051498a_4)
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:988)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:555)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:177)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:305)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1171)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:221)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:120)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+RealJenkinsRule ready
+2023-09-22 08:35:45.453+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2023-09-22 08:35:45.538+0000 [id=41]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2023-09-22 08:35:45.546+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2023-09-22 08:35:45.575+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j%20h6672988687632459840/war/WEB-INF/lib/groovy-all-2.4.21.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2023-09-22 08:35:46.360+0000 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2023-09-22 08:35:46.361+0000 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2023-09-22 08:35:46.363+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2023-09-22 08:35:46.389+0000 [id=42]	INFO	jenkins.model.Jenkins#setInstallState: Install state transitioning from: null to: TEST
+2023-09-22 08:35:46.632+0000 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2023-09-22 08:35:46.724+0000 [id=24]	INFO	hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+Checking status
+Jenkins is running at http://localhost:46313/jenkins/
+2023-09-22 08:35:48.063+0000 [id=88]	INFO	hudson.lifecycle.Lifecycle#onStop: Stopping Jenkins as requested by SYSTEM
+2023-09-22 08:35:48.065+0000 [id=88]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+2023-09-22 08:35:49.116+0000 [id=88]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+2023-09-22 08:35:49.116+0000 [id=26]	INFO	winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
+2023-09-22 08:35:49.152+0000 [id=26]	INFO	org.eclipse.jetty.server.Server#doStop: Stopped Server@49c6c24f{STOPPING}[10.0.15,sto=0]
+2023-09-22 08:35:49.154+0000 [id=26]	INFO	o.e.j.server.AbstractConnector#doStop: Stopped ServerConnector@70f59913{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-09-22 08:35:49.155+0000 [id=26]	INFO	o.e.j.s.handler.ContextHandler#doStop: Stopped w.@3e15bb06{Jenkins v2.414.1-cb-15,/jenkins,null,STOPPED}{/src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840/war}
+Sep 22, 2023 10:35:49 AM org.jvnet.hudson.test.TemporaryDirectoryAllocator dispose
+INFO: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h6672988687632459840

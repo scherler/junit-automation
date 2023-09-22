@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cloudbees.jenkins.plugins.pipeline.explorer.log.file.config.CasCTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.525 s -- in com.cloudbees.jenkins.plugins.pipeline.explorer.log.file.config.CasCTest

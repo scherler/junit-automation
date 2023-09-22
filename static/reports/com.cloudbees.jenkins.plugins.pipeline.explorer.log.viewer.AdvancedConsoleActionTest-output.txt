@@ -1,0 +1,310 @@
+=== Starting test_transient_action_is_not_created(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.083 [id=20]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at /src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test
+   0.390 [id=20]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:41569/jenkins/
+   1.020 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   1.344 [id=44]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins2008310159570291659/plugins/javax-mail-api.jpi
+   1.847 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins2008310159570291659/plugins/command-launcher.jpi
+   1.855 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins2008310159570291659/plugins/jdk-tool.jpi
+   1.861 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins2008310159570291659/plugins/sshd.jpi
+   2.141 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   2.154 [id=39]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h9685053252026483106/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   3.483 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   3.549 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   3.550 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   3.571 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   5.290 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   5.291 [id=42]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   5.297 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   5.415 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   5.580 [99e39e84-778a-47a3-92c8-aba6cc5eb490 #1] Started
+   5.983 [99e39e84-778a-47a3-92c8-aba6cc5eb490 #1] [Pipeline] Start of Pipeline
+   6.084 [99e39e84-778a-47a3-92c8-aba6cc5eb490 #1] [Pipeline] echo
+   6.084 [99e39e84-778a-47a3-92c8-aba6cc5eb490 #1] Hello World
+   6.084 [99e39e84-778a-47a3-92c8-aba6cc5eb490 #1] [Pipeline] End of Pipeline
+   6.151 [99e39e84-778a-47a3-92c8-aba6cc5eb490 #1] Finished: SUCCESS
+   7.190 [id=20]	INFO	org.htmlunit.WebClient#printContentIfNecessary: statusCode=[404] contentType=[text/html]
+   7.193 [id=20]	INFO	org.htmlunit.WebClient#printContentIfNecessary: <html><head><meta http-equiv='refresh' content='1;url=..'/><script>window.location.replace('..');</script></head><body style='background-color:white; color:white;'>Not found</body></html>
+
+   9.459 [id=20]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+  10.484 [id=20]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+  10.534 [id=20]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h9685053252026483106
+=== Starting status_smokes(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.009 [id=106]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:36237/jenkins/
+   0.120 [id=124]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.121 [id=125]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.123 [id=125]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h15747000615472423871/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.228 [id=129]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.240 [id=134]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.241 [id=126]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.241 [id=123]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.214 [id=125]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.214 [id=132]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.214 [id=132]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.235 [id=125]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.302 [a12378fe-4507-486e-acf2-1c86d09e676e #1] Started
+   1.353 [a12378fe-4507-486e-acf2-1c86d09e676e #1] [Pipeline] Start of Pipeline
+   1.403 [a12378fe-4507-486e-acf2-1c86d09e676e #1] [Pipeline] echo
+   1.403 [a12378fe-4507-486e-acf2-1c86d09e676e #1] Hello World
+   1.403 [a12378fe-4507-486e-acf2-1c86d09e676e #1] [Pipeline] End of Pipeline
+   1.433 [a12378fe-4507-486e-acf2-1c86d09e676e #1] Finished: SUCCESS
+   1.504 [test1 #1] Started
+   1.504 [test1 #1] [Pipeline] Start of Pipeline
+   1.554 [test1 #1] [Pipeline] semaphore
+Blocking wait/1
+Unblocking wait/1 as success
+   1.605 [test1 #1] [Pipeline] End of Pipeline
+   1.655 [test1 #1] Finished: FAILURE
+   1.666 [id=106]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.686 [id=106]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.739 [id=106]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h15747000615472423871
+=== Starting logsComputesContextChangesForParallelBranches(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.006 [id=173]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:33231/jenkins/
+   0.115 [id=186]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.115 [id=186]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.116 [id=197]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13167127735526729509/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.229 [id=193]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.236 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.236 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.237 [id=195]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.898 [id=195]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.898 [id=189]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.899 [id=190]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.922 [id=195]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.002 [fe36851f-9ca2-427a-8f36-63b9d0341bd9 #1] Started
+   1.052 [fe36851f-9ca2-427a-8f36-63b9d0341bd9 #1] [Pipeline] Start of Pipeline
+   1.103 [fe36851f-9ca2-427a-8f36-63b9d0341bd9 #1] [Pipeline] echo
+   1.103 [fe36851f-9ca2-427a-8f36-63b9d0341bd9 #1] Hello World
+   1.103 [fe36851f-9ca2-427a-8f36-63b9d0341bd9 #1] [Pipeline] End of Pipeline
+   1.112 [fe36851f-9ca2-427a-8f36-63b9d0341bd9 #1] Finished: SUCCESS
+   1.153 [test1 #1] Started
+   1.204 [test1 #1] [Pipeline] Start of Pipeline
+   1.254 [test1 #1] [Pipeline] parallel
+   1.254 [test1 #1] [Pipeline] { (Branch: one)
+   1.254 [test1 #1] [Pipeline] { (Branch: two)
+   1.304 [test1 #1] [Pipeline] echo
+   1.355 [test1 #1] Hello from one
+   1.355 [test1 #1] [Pipeline] echo
+   1.355 [test1 #1] Hello from one again
+   1.355 [test1 #1] [Pipeline] }
+   1.355 [test1 #1] [Pipeline] echo
+   1.405 [test1 #1] Hello from two
+   1.405 [test1 #1] [Pipeline] }
+   1.456 [test1 #1] [Pipeline] // parallel
+   1.456 [test1 #1] [Pipeline] End of Pipeline
+   1.470 [test1 #1] Finished: SUCCESS
+   1.489 [id=173]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.511 [id=173]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.567 [id=173]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13167127735526729509
+=== Starting smokes_download_no_timestamp(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.014 [id=233]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:40029/jenkins/
+   0.139 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.140 [id=245]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.141 [id=255]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h15107030498932529989/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.245 [id=255]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.257 [id=252]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.257 [id=251]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.258 [id=248]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.504 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.505 [id=259]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.505 [id=260]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.528 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.603 [d8567bc1-d838-442f-91a8-6a09ba4af24a #1] Started
+   1.654 [d8567bc1-d838-442f-91a8-6a09ba4af24a #1] [Pipeline] Start of Pipeline
+   1.704 [d8567bc1-d838-442f-91a8-6a09ba4af24a #1] [Pipeline] echo
+   1.704 [d8567bc1-d838-442f-91a8-6a09ba4af24a #1] Hello World
+   1.704 [d8567bc1-d838-442f-91a8-6a09ba4af24a #1] [Pipeline] End of Pipeline
+   1.718 [d8567bc1-d838-442f-91a8-6a09ba4af24a #1] Finished: SUCCESS
+   1.755 [test1 #1] Started
+   1.956 [test1 #1] [Pipeline] Start of Pipeline
+   2.709 [test1 #1] [Pipeline] stage
+   2.760 [test1 #1] [Pipeline] { (Non-Parallel Stage)
+   2.810 [test1 #1] [Pipeline] echo
+   2.810 [test1 #1] Non-Parallel Stage
+   2.810 [test1 #1] [Pipeline] }
+   2.860 [test1 #1] [Pipeline] // stage
+   2.911 [test1 #1] [Pipeline] stage
+   2.911 [test1 #1] [Pipeline] { (Parallel Stage)
+   2.961 [test1 #1] [Pipeline] parallel
+   2.961 [test1 #1] [Pipeline] { (Branch: Branch A)
+   2.961 [test1 #1] [Pipeline] { (Branch: Branch B)
+   3.011 [test1 #1] [Pipeline] stage
+   3.011 [test1 #1] [Pipeline] { (Branch A)
+   3.062 [test1 #1] [Pipeline] stage
+   3.062 [test1 #1] [Pipeline] { (Branch B)
+   3.112 [test1 #1] [Pipeline] stage
+   3.112 [test1 #1] [Pipeline] { (Nested B1)
+   3.112 [test1 #1] [Pipeline] echo
+   3.112 [test1 #1] Branch A
+   3.163 [test1 #1] [Pipeline] }
+   3.163 [test1 #1] [Pipeline] // stage
+   3.163 [test1 #1] [Pipeline] }
+   3.213 [test1 #1] [Pipeline] echo
+   3.213 [test1 #1] Branch B Nested B1
+   3.213 [test1 #1] [Pipeline] }
+   3.263 [test1 #1] [Pipeline] // stage
+   3.314 [test1 #1] [Pipeline] stage
+   3.314 [test1 #1] [Pipeline] { (Nested B2)
+   3.364 [test1 #1] [Pipeline] echo
+   3.364 [test1 #1] Branch B Nested B2
+   3.364 [test1 #1] [Pipeline] }
+   3.414 [test1 #1] [Pipeline] // stage
+   3.414 [test1 #1] [Pipeline] }
+   3.465 [test1 #1] [Pipeline] // stage
+   3.465 [test1 #1] [Pipeline] }
+   3.515 [test1 #1] [Pipeline] // parallel
+   3.515 [test1 #1] [Pipeline] }
+   3.565 [test1 #1] [Pipeline] // stage
+   3.565 [test1 #1] [Pipeline] End of Pipeline
+   3.602 [test1 #1] Finished: SUCCESS
+   3.615 [id=233]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.626 [id=233]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.686 [id=233]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h15107030498932529989
+=== Starting smokes_autoPollingInterval(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.006 [id=293]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:43309/jenkins/
+   0.112 [id=306]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.112 [id=320]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.113 [id=307]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h16747409872240473234/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.218 [id=317]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.226 [id=318]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.226 [id=319]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.227 [id=315]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.196 [id=317]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.196 [id=319]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.197 [id=309]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.219 [id=317]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.302 [999998ce-4a6c-4178-b063-b66b50e5d40f #1] Started
+   1.353 [999998ce-4a6c-4178-b063-b66b50e5d40f #1] [Pipeline] Start of Pipeline
+   1.353 [999998ce-4a6c-4178-b063-b66b50e5d40f #1] [Pipeline] echo
+   1.403 [999998ce-4a6c-4178-b063-b66b50e5d40f #1] Hello World
+   1.403 [999998ce-4a6c-4178-b063-b66b50e5d40f #1] [Pipeline] End of Pipeline
+   1.403 [999998ce-4a6c-4178-b063-b66b50e5d40f #1] Finished: SUCCESS
+   1.453 [test1 #1] Started
+   1.504 [test1 #1] [Pipeline] Start of Pipeline
+   1.504 [test1 #1] [Pipeline] echo
+   1.504 [test1 #1] Hello World
+   1.549 [test1 #1] [Pipeline] End of Pipeline
+   1.549 [test1 #1] Finished: SUCCESS
+   1.604 [test1 #2] Started
+   1.604 [test1 #2] [Pipeline] Start of Pipeline
+   1.655 [test1 #2] [Pipeline] echo
+   1.655 [test1 #2] Hello World
+   1.655 [test1 #2] [Pipeline] End of Pipeline
+   1.691 [test1 #2] Finished: SUCCESS
+   1.700 [id=293]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.723 [id=293]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.785 [id=293]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h16747409872240473234
+=== Starting logsComputesSortedErrors(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.008 [id=355]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:43955/jenkins/
+   0.113 [id=368]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.114 [id=368]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.115 [id=376]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4627274083841225003/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.220 [id=381]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.231 [id=379]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.231 [id=367]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.231 [id=367]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.597 [id=367]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.597 [id=374]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.597 [id=374]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.620 [id=367]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.702 [d06af909-563d-4d2a-9ea2-cd517d457d36 #1] Started
+   0.752 [d06af909-563d-4d2a-9ea2-cd517d457d36 #1] [Pipeline] Start of Pipeline
+   0.802 [d06af909-563d-4d2a-9ea2-cd517d457d36 #1] [Pipeline] echo
+   0.803 [d06af909-563d-4d2a-9ea2-cd517d457d36 #1] Hello World
+   0.803 [d06af909-563d-4d2a-9ea2-cd517d457d36 #1] [Pipeline] End of Pipeline
+   0.825 [d06af909-563d-4d2a-9ea2-cd517d457d36 #1] Finished: SUCCESS
+   0.903 [test1 #1] Started
+   0.903 [test1 #1] [Pipeline] Start of Pipeline
+   0.953 [test1 #1] [Pipeline] parallel
+   0.953 [test1 #1] [Pipeline] { (Branch: one)
+   0.953 [test1 #1] [Pipeline] { (Branch: two)
+   1.004 [test1 #1] [Pipeline] sleep
+   1.004 [test1 #1] Sleeping for 2 sec
+   1.004 [test1 #1] [Pipeline] error
+   1.054 [test1 #1] [Pipeline] }
+   1.054 [test1 #1] Failed in branch two
+   3.017 [test1 #1] [Pipeline] unstable
+   3.017 [test1 #1] WARNING: just a warning
+   3.067 [test1 #1] [Pipeline] }
+   3.067 [test1 #1] [Pipeline] // parallel
+   3.117 [test1 #1] [Pipeline] End of Pipeline
+   3.117 [test1 #1] ERROR: my error message
+   3.149 [test1 #1] Finished: FAILURE
+   3.181 [id=355]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.191 [id=355]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.257 [id=355]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4627274083841225003
+=== Starting compilationFailuresDoNotBlockLogRetrieval(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.006 [id=415]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:44867/jenkins/
+   0.113 [id=428]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.114 [id=437]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.114 [id=427]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h175918740546929930/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.222 [id=427]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.234 [id=429]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.234 [id=442]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.234 [id=435]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   2.167 [id=441]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   2.167 [id=438]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   2.168 [id=434]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   2.189 [id=441]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   2.306 [89d9ac29-f007-44cf-8a3b-1f31cc782650 #1] Started
+   2.306 [89d9ac29-f007-44cf-8a3b-1f31cc782650 #1] [Pipeline] Start of Pipeline
+   2.357 [89d9ac29-f007-44cf-8a3b-1f31cc782650 #1] [Pipeline] echo
+   2.357 [89d9ac29-f007-44cf-8a3b-1f31cc782650 #1] Hello World
+   2.357 [89d9ac29-f007-44cf-8a3b-1f31cc782650 #1] [Pipeline] End of Pipeline
+   2.400 [89d9ac29-f007-44cf-8a3b-1f31cc782650 #1] Finished: SUCCESS
+   2.458 [test1 #1] Started
+   2.458 [test1 #1] org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+   2.458 [test1 #1] WorkflowScript: 1: unexpected char: '#' @ line 1, column 3.
+   2.458 [test1 #1]    !@#
+   2.458 [test1 #1]      ^
+   2.458 [test1 #1] 
+   2.458 [test1 #1] 1 error
+   2.458 [test1 #1] 
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:149)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:119)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:131)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.SourceUnit.addError(SourceUnit.java:349)
+   2.458 [test1 #1] 	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:220)
+   2.458 [test1 #1] 	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:191)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:233)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:189)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:966)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:626)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+   2.458 [test1 #1] 	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+   2.458 [test1 #1] 	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+   2.458 [test1 #1] 	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+   2.458 [test1 #1] 	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+   2.458 [test1 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:190)
+   2.458 [test1 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:175)
+   2.458 [test1 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:580)
+   2.458 [test1 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:526)
+   2.458 [test1 #1] 	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:336)
+   2.458 [test1 #1] 	at hudson.model.ResourceController.execute(ResourceController.java:101)
+   2.458 [test1 #1] 	at hudson.model.Executor.run(Executor.java:442)
+   2.485 [test1 #1] Finished: FAILURE
+   2.501 [id=415]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   3.525 [id=415]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   3.603 [id=415]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h175918740546929930
+=== Starting test_transient_action_is_created(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest)
+   0.011 [id=477]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:43253/jenkins/
+   0.183 [id=490]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.185 [id=490]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.186 [id=499]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h3643951894019200296/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.428 [id=490]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.447 [id=491]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.448 [id=498]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.449 [id=497]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.373 [id=497]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.373 [id=499]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.378 [id=491]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.398 [id=497]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.504 [c27fe377-2c6f-49fc-8aaf-05c1cff5ce77 #1] Started
+   1.554 [c27fe377-2c6f-49fc-8aaf-05c1cff5ce77 #1] [Pipeline] Start of Pipeline
+   1.605 [c27fe377-2c6f-49fc-8aaf-05c1cff5ce77 #1] [Pipeline] echo
+   1.605 [c27fe377-2c6f-49fc-8aaf-05c1cff5ce77 #1] Hello World
+   1.605 [c27fe377-2c6f-49fc-8aaf-05c1cff5ce77 #1] [Pipeline] End of Pipeline
+   1.655 [c27fe377-2c6f-49fc-8aaf-05c1cff5ce77 #1] Finished: SUCCESS
+   3.832 [id=477]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.854 [id=477]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.931 [id=477]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h3643951894019200296
