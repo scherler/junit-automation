@@ -6,33 +6,13 @@ pipeline {
         stage('Checkout Codebase'){
             steps{
                 checkout scm: [$class: 'GitSCM', branches: [[name: '*/main']],userRemoteConfigs:
-                [[credentialsId: 'github-ssh-key', url: 'git@github.com:mnorm88/junit-automation.git']]]
-            }
-        }
-
-        stage('Build'){
-            steps{
-                sh 'mkdir lib'
-                sh 'cd lib/ ; wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0/junit-platform-console-standalone-1.7.0-all.jar'
-                sh 'cd src ; javac -cp "../lib/junit-platform-console-standalone-1.7.0-all.jar" CarTest.java Car.java App.java'
-            }
-        }
-
-        stage('Test'){
-            steps{
-                sh 'cd src/ ; java -jar ../lib/junit-platform-console-standalone-1.7.0-all.jar -cp "." --select-class CarTest --reports-dir="reports"'
-            }
-        }
-
-        stage('Deploy'){
-            steps{
-                sh 'cd src/ ; java App' 
+                [[credentialsId: 'github-ssh-key', url: 'git@github.com:scherler/junit-automation.git']]]
             }
         }
     }
 post {
       always {
-                junit 'src/reports/*-jupiter.xml'
+          junit '**/reports/*.xml'
       }
    } 
 }
