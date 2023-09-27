@@ -1,0 +1,1 @@
+Running tests for com.cloudbees.jenkins.plugins:cloudbees-pipeline-explorer:1.5-SNAPSHOT

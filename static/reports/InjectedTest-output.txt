@@ -1,0 +1,68 @@
+Sep 22, 2023 10:31:57 AM org.jvnet.hudson.test.WarExploder explode
+INFO: Exploding /home/tscherler/.m2/repository/org/jenkins-ci/main/jenkins-war/2.414.1-cb-15/jenkins-war-2.414.1-cb-15.war into /src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test
+Sep 22, 2023 10:31:59 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Sep 22, 2023 10:31:59 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 11.0.16+11-LTS-199
+Sep 22, 2023 10:32:00 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 22, 2023 10:32:00 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: Session workerName=node0
+Sep 22, 2023 10:32:00 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@1507c3c3{Jenkins v2.414.1-cb-15,/,file:///src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test/,AVAILABLE}{/src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test}
+Sep 22, 2023 10:32:00 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@2e179f3e{HTTP/1.1, (http/1.1)}{localhost:33627}
+Sep 22, 2023 10:32:00 AM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@113e13f9{STARTING}[10.0.15,sto=0] @4477ms
+Sep 22, 2023 10:32:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Sep 22, 2023 10:32:00 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins11289973578674651417/plugins/javax-mail-api.jpi
+Sep 22, 2023 10:32:01 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins11289973578674651417/plugins/command-launcher.jpi
+Sep 22, 2023 10:32:01 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins11289973578674651417/plugins/jdk-tool.jpi
+Sep 22, 2023 10:32:01 AM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins11289973578674651417/plugins/sshd.jpi
+Sep 22, 2023 10:32:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Sep 22, 2023 10:32:01 AM jenkins.bouncycastle.api.BouncyCastlePlugin start
+INFO: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4904071878926247060/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+Sep 22, 2023 10:32:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Sep 22, 2023 10:32:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Sep 22, 2023 10:32:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Sep 22, 2023 10:32:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config loaded
+Sep 22, 2023 10:32:03 AM jenkins.InitReactorRunner$1 onAttained
+INFO: System config adapted
+Sep 22, 2023 10:32:03 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Sep 22, 2023 10:32:03 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+Sep 22, 2023 10:32:03 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 22, 2023 10:32:03 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 11.0.16+11-LTS-199
+Sep 22, 2023 10:32:03 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: Session workerName=node0
+Sep 22, 2023 10:32:03 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@41b64020{/,null,AVAILABLE}
+Sep 22, 2023 10:32:03 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@78910096{HTTP/1.1, (http/1.1)}{0.0.0.0:40629}
+Sep 22, 2023 10:32:03 AM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@4a1a256d{STARTING}[10.0.15,sto=0] @8302ms
+Sep 22, 2023 10:32:05 AM org.eclipse.jetty.server.Server doStop
+INFO: Stopped Server@113e13f9{STOPPING}[10.0.15,sto=0]
+Sep 22, 2023 10:32:05 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@2e179f3e{HTTP/1.1, (http/1.1)}{localhost:0}
+Sep 22, 2023 10:32:05 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@1507c3c3{Jenkins v2.414.1-cb-15,/,file:///src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test/,STOPPED}{/src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test}
+Sep 22, 2023 10:32:05 AM hudson.lifecycle.Lifecycle onStatusUpdate
+INFO: Stopping Jenkins
+Sep 22, 2023 10:32:05 AM hudson.lifecycle.Lifecycle onStatusUpdate
+INFO: Jenkins stopped
+Sep 22, 2023 10:32:05 AM org.jvnet.hudson.test.TemporaryDirectoryAllocator dispose
+INFO: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4904071878926247060

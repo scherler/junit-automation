@@ -1,0 +1,21 @@
+=== Starting smokes(com.cloudbees.jenkins.plugins.pipeline.explorer.log.file.config.CasCTest)
+   0.059 [id=19]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at /src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test
+   0.275 [id=19]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:39673/jenkins/
+   0.884 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   1.183 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins9580331894068721852/plugins/javax-mail-api.jpi
+   1.688 [id=31]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins9580331894068721852/plugins/command-launcher.jpi
+   1.696 [id=31]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins9580331894068721852/plugins/jdk-tool.jpi
+   1.704 [id=31]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins9580331894068721852/plugins/sshd.jpi
+   2.005 [id=41]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   2.023 [id=32]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13871480591928417582/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   3.318 [id=46]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   3.382 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   3.383 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   3.409 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   4.944 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   4.944 [id=39]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   4.950 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   5.068 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   5.982 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   6.015 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   6.044 [id=19]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13871480591928417582

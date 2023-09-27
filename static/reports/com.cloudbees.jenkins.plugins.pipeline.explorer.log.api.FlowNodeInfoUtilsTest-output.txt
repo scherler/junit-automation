@@ -1,0 +1,871 @@
+=== Starting computeAllSortedErrorIdsParallel(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.046 [id=20]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at /src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test
+   0.256 [id=20]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:40551/jenkins/
+   0.779 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   1.045 [id=42]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins519043094355990327/plugins/javax-mail-api.jpi
+   1.488 [id=43]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins519043094355990327/plugins/command-launcher.jpi
+   1.497 [id=43]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins519043094355990327/plugins/jdk-tool.jpi
+   1.507 [id=43]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins519043094355990327/plugins/sshd.jpi
+   1.802 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   1.824 [id=39]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h1006965019655546025/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   3.373 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   3.437 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   3.438 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   3.460 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   5.265 [id=47]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   5.265 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   5.272 [id=44]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   5.398 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   5.562 [test0 #1] Started
+   5.914 [test0 #1] [Pipeline] Start of Pipeline
+   6.065 [test0 #1] [Pipeline] stage
+   6.066 [test0 #1] [Pipeline] { (test)
+   6.166 [test0 #1] [Pipeline] unstable
+   6.166 [test0 #1] WARNING: just a warning
+   6.217 [test0 #1] [Pipeline] error
+   6.217 [test0 #1] [Pipeline] }
+   6.267 [test0 #1] [Pipeline] // stage
+   6.318 [test0 #1] [Pipeline] End of Pipeline
+   6.318 [test0 #1] ERROR: my error message
+   6.347 [test0 #1] Finished: FAILURE
+   6.356 [id=20]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   7.381 [id=20]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   7.417 [id=20]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h1006965019655546025
+=== Starting findClosestEnclosingTreeNode(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.008 [id=96]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:34089/jenkins/
+   0.116 [id=109]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.117 [id=122]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.118 [id=121]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h1239417155026346255/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.220 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.230 [id=110]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.230 [id=120]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.231 [id=115]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.439 [id=115]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.439 [id=109]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.441 [id=119]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.462 [id=115]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.551 [test0 #1] Started
+   0.802 [test0 #1] [Pipeline] Start of Pipeline
+   1.557 [test0 #1] [Pipeline] stage
+   1.557 [test0 #1] [Pipeline] { (Parallel Wrapper)
+   1.607 [test0 #1] [Pipeline] parallel
+   1.658 [test0 #1] [Pipeline] { (Branch: Skipped Branch)
+   1.658 [test0 #1] [Pipeline] { (Branch: Executed Branch)
+   1.709 [test0 #1] [Pipeline] stage
+   1.709 [test0 #1] [Pipeline] { (Skipped Branch)
+   1.759 [test0 #1] [Pipeline] stage
+   1.759 [test0 #1] [Pipeline] { (Executed Branch)
+   1.809 [test0 #1] Stage "Skipped Branch" skipped due to when conditional
+   1.910 [test0 #1] [Pipeline] }
+   1.960 [test0 #1] [Pipeline] // stage
+   1.960 [test0 #1] [Pipeline] }
+   1.960 [test0 #1] [Pipeline] echo
+   2.011 [test0 #1] used
+   2.011 [test0 #1] [Pipeline] }
+   2.011 [test0 #1] [Pipeline] // stage
+   2.062 [test0 #1] [Pipeline] }
+   2.114 [test0 #1] [Pipeline] // parallel
+   2.114 [test0 #1] [Pipeline] }
+   2.164 [test0 #1] [Pipeline] // stage
+   2.215 [test0 #1] [Pipeline] stage
+   2.215 [test0 #1] [Pipeline] { (Failed Stage)
+   2.265 [test0 #1] [Pipeline] echo
+   2.265 [test0 #1] just here so the stage has log output
+   2.265 [test0 #1] [Pipeline] error
+   2.316 [test0 #1] [Pipeline] }
+   2.366 [test0 #1] [Pipeline] // stage
+   2.366 [test0 #1] [Pipeline] stage
+   2.366 [test0 #1] [Pipeline] { (Skipped Stage)
+   2.416 [test0 #1] Stage "Skipped Stage" skipped due to earlier failure(s)
+   2.416 [test0 #1] [Pipeline] }
+   2.467 [test0 #1] [Pipeline] // stage
+   2.517 [test0 #1] [Pipeline] End of Pipeline
+   2.517 [test0 #1] ERROR: failed
+   2.532 [test0 #1] Finished: FAILURE
+   2.536 [id=96]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   3.561 [id=96]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   3.602 [id=96]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h1239417155026346255
+=== Starting computeFlowNodeErrorsUnexpectedExceptionType(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.011 [id=152]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:45761/jenkins/
+   0.122 [id=165]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.123 [id=166]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.124 [id=178]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h15961291972472638340/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.222 [id=168]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.232 [id=166]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.233 [id=170]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.233 [id=169]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.947 [id=169]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.947 [id=169]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.947 [id=169]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.971 [id=179]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.052 [test0 #1] Started
+   1.103 [test0 #1] [Pipeline] Start of Pipeline
+   1.153 [test0 #1] [Pipeline] stage
+   1.153 [test0 #1] [Pipeline] { (Build)
+   1.203 [test0 #1] [Pipeline] }
+   1.203 [test0 #1] [Pipeline] // stage
+   1.254 [test0 #1] [Pipeline] End of Pipeline
+   1.254 [test0 #1] Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: c342ec34-673d-4861-ae9a-14ec3dec4ded
+   1.254 [test0 #1] java.io.FileNotFoundException: myFile
+   1.254 [test0 #1] 	at WorkflowScript.run(WorkflowScript:1)
+   1.254 [test0 #1] 	at ___cps.transform___(Native Method)
+   1.254 [test0 #1] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+   1.254 [test0 #1] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+   1.254 [test0 #1] 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+   1.254 [test0 #1] 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+   1.254 [test0 #1] 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+   1.254 [test0 #1] 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+   1.254 [test0 #1] 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+   1.254 [test0 #1] 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.sandbox.DefaultInvoker.constructorCall(DefaultInvoker.java:25)
+   1.254 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.LoggingInvoker.constructorCall(LoggingInvoker.java:110)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:100)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:85)
+   1.254 [test0 #1] 	at jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+   1.254 [test0 #1] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   1.254 [test0 #1] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:152)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:146)
+   1.254 [test0 #1] 	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+   1.254 [test0 #1] 	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+   1.254 [test0 #1] 	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:146)
+   1.254 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:187)
+   1.254 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:422)
+   1.254 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:330)
+   1.254 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:294)
+   1.254 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+   1.254 [test0 #1] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+   1.254 [test0 #1] 	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+   1.254 [test0 #1] 	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+   1.254 [test0 #1] 	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+   1.254 [test0 #1] 	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+   1.254 [test0 #1] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+   1.254 [test0 #1] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+   1.255 [test0 #1] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+   1.255 [test0 #1] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+   1.255 [test0 #1] 	at java.base/java.lang.Thread.run(Thread.java:834)
+   1.281 [test0 #1] Finished: FAILURE
+   1.282 [id=152]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.305 [id=152]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.350 [id=152]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h15961291972472638340
+=== Starting computeFlowNodeErrorsParallel(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.006 [id=208]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:44571/jenkins/
+   0.107 [id=221]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.108 [id=222]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.108 [id=228]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h10485964152603634220/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.207 [id=221]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.217 [id=222]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.218 [id=221]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.218 [id=227]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.519 [id=230]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.519 [id=220]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.520 [id=224]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.542 [id=230]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.603 [test0 #1] Started
+   1.653 [test0 #1] [Pipeline] Start of Pipeline
+   1.703 [test0 #1] [Pipeline] parallel
+   1.703 [test0 #1] [Pipeline] { (Branch: one)
+   1.703 [test0 #1] [Pipeline] { (Branch: two)
+   1.754 [test0 #1] [Pipeline] sleep
+   1.754 [test0 #1] Sleeping for 10 sec
+   1.754 [test0 #1] [Pipeline] error
+   1.804 [test0 #1] [Pipeline] }
+   1.804 [test0 #1] Failed in branch two
+   1.854 [test0 #1] [Pipeline] }
+   1.854 [test0 #1] Failed in branch one
+   1.904 [test0 #1] [Pipeline] // parallel
+   1.955 [test0 #1] [Pipeline] End of Pipeline
+   1.955 [test0 #1] ERROR: my error message
+   1.974 [test0 #1] Finished: FAILURE
+   1.976 [id=208]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.998 [id=208]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   3.044 [id=208]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h10485964152603634220
+=== Starting computeSortedErrorIdsParallel(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.005 [id=264]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:43675/jenkins/
+   0.108 [id=277]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.109 [id=284]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.110 [id=286]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4589558803470764990/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.211 [id=285]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.222 [id=283]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.222 [id=282]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.222 [id=291]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.992 [id=283]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.992 [id=283]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.993 [id=283]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.016 [id=287]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.102 [test0 #1] Started
+   1.102 [test0 #1] [Pipeline] Start of Pipeline
+   1.153 [test0 #1] [Pipeline] stage
+   1.203 [test0 #1] [Pipeline] { (test)
+   1.203 [test0 #1] [Pipeline] unstable
+   1.203 [test0 #1] WARNING: just a warning
+   1.253 [test0 #1] [Pipeline] error
+   1.253 [test0 #1] [Pipeline] }
+   1.304 [test0 #1] [Pipeline] // stage
+   1.354 [test0 #1] [Pipeline] End of Pipeline
+   1.354 [test0 #1] ERROR: my error message
+   1.354 [test0 #1] Finished: FAILURE
+   1.358 [id=264]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.377 [id=264]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.439 [id=264]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4589558803470764990
+=== Starting computeFlowNodeErrors(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.007 [id=320]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:33983/jenkins/
+   0.109 [id=333]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.110 [id=345]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.111 [id=340]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h17342961035071144214/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.228 [id=337]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.239 [id=343]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.240 [id=339]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.240 [id=336]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.050 [id=336]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.050 [id=335]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.051 [id=332]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.074 [id=336]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.152 [test0 #1] Started
+   1.203 [test0 #1] [Pipeline] Start of Pipeline
+   1.253 [test0 #1] [Pipeline] stage
+   1.253 [test0 #1] [Pipeline] { (Build)
+   1.253 [test0 #1] [Pipeline] error
+   1.303 [test0 #1] [Pipeline] }
+   1.353 [test0 #1] [Pipeline] // stage
+   1.353 [test0 #1] [Pipeline] End of Pipeline
+   1.391 [test0 #1] ERROR: my error message
+   1.391 [test0 #1] Finished: FAILURE
+   1.393 [id=320]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.413 [id=320]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.459 [id=320]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h17342961035071144214
+=== Starting computeStatuses(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.005 [id=376]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:38423/jenkins/
+   0.109 [id=389]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.110 [id=399]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.110 [id=397]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4115624680175765694/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.210 [id=402]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.219 [id=390]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.219 [id=401]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.219 [id=397]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.901 [id=396]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.901 [id=396]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.902 [id=390]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.926 [id=391]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.002 [test0 #1] Started
+   1.052 [test0 #1] [Pipeline] Start of Pipeline
+   1.103 [test0 #1] [Pipeline] stage
+   1.103 [test0 #1] [Pipeline] { (SUCCESS)
+   1.103 [test0 #1] [Pipeline] echo
+   1.153 [test0 #1] success
+   1.153 [test0 #1] [Pipeline] }
+   1.153 [test0 #1] [Pipeline] // stage
+   1.203 [test0 #1] [Pipeline] stage
+   1.203 [test0 #1] [Pipeline] { (ABORTED)
+   1.254 [test0 #1] [Pipeline] catchError
+   1.254 [test0 #1] [Pipeline] {
+   1.254 [test0 #1] [Pipeline] error
+   1.304 [test0 #1] [Pipeline] }
+   1.304 [test0 #1] ERROR: aborted
+   1.354 [test0 #1] [Pipeline] // catchError
+   1.354 [test0 #1] [Pipeline] }
+   1.405 [test0 #1] [Pipeline] // stage
+   1.405 [test0 #1] [Pipeline] stage
+   1.405 [test0 #1] [Pipeline] { (NOT_BUILT)
+   1.455 [test0 #1] [Pipeline] catchError
+   1.455 [test0 #1] [Pipeline] {
+   1.505 [test0 #1] [Pipeline] error
+   1.505 [test0 #1] [Pipeline] }
+   1.556 [test0 #1] ERROR: not_built
+   1.556 [test0 #1] [Pipeline] // catchError
+   1.606 [test0 #1] [Pipeline] }
+   1.606 [test0 #1] [Pipeline] // stage
+   1.656 [test0 #1] [Pipeline] stage
+   1.656 [test0 #1] [Pipeline] { (UNSTABLE)
+   1.656 [test0 #1] [Pipeline] unstable
+   1.706 [test0 #1] WARNING: unstable
+   1.706 [test0 #1] [Pipeline] }
+   1.706 [test0 #1] [Pipeline] // stage
+   1.757 [test0 #1] [Pipeline] stage
+   1.757 [test0 #1] [Pipeline] { (FAILURE)
+   1.807 [test0 #1] [Pipeline] echo
+   1.807 [test0 #1] failure
+   1.807 [test0 #1] [Pipeline] error
+   1.807 [test0 #1] [Pipeline] }
+   1.857 [test0 #1] [Pipeline] // stage
+   1.907 [test0 #1] [Pipeline] End of Pipeline
+   1.908 [test0 #1] ERROR: failure
+   1.926 [test0 #1] Finished: FAILURE
+   1.928 [id=376]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.952 [id=376]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   3.001 [id=376]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h4115624680175765694
+=== Starting computeFlowGraphWithDeclarativeSkippedStages(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.007 [id=433]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:41339/jenkins/
+   0.108 [id=446]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.109 [id=447]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.110 [id=460]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h16561704931364233/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.212 [id=447]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.223 [id=445]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.223 [id=445]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.224 [id=455]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.595 [id=455]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.596 [id=458]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.596 [id=449]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.621 [id=455]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.702 [test0 #1] Started
+   0.752 [test0 #1] [Pipeline] Start of Pipeline
+   0.903 [test0 #1] [Pipeline] stage
+   0.953 [test0 #1] [Pipeline] { (Parallel Wrapper)
+   0.953 [test0 #1] [Pipeline] parallel
+   1.003 [test0 #1] [Pipeline] { (Branch: Skipped Branch)
+   1.003 [test0 #1] [Pipeline] { (Branch: Executed Branch)
+   1.054 [test0 #1] [Pipeline] stage
+   1.054 [test0 #1] [Pipeline] { (Skipped Branch)
+   1.054 [test0 #1] [Pipeline] stage
+   1.054 [test0 #1] [Pipeline] { (Executed Branch)
+   1.104 [test0 #1] Stage "Skipped Branch" skipped due to when conditional
+   1.104 [test0 #1] [Pipeline] }
+   1.155 [test0 #1] [Pipeline] // stage
+   1.155 [test0 #1] [Pipeline] }
+   1.205 [test0 #1] [Pipeline] echo
+   1.205 [test0 #1] used
+   1.205 [test0 #1] [Pipeline] }
+   1.255 [test0 #1] [Pipeline] // stage
+   1.255 [test0 #1] [Pipeline] }
+   1.305 [test0 #1] [Pipeline] // parallel
+   1.305 [test0 #1] [Pipeline] }
+   1.356 [test0 #1] [Pipeline] // stage
+   1.406 [test0 #1] [Pipeline] stage
+   1.406 [test0 #1] [Pipeline] { (Failed Stage)
+   1.456 [test0 #1] [Pipeline] echo
+   1.456 [test0 #1] just here so the stage has log output
+   1.456 [test0 #1] [Pipeline] error
+   1.507 [test0 #1] [Pipeline] }
+   1.507 [test0 #1] [Pipeline] // stage
+   1.557 [test0 #1] [Pipeline] stage
+   1.557 [test0 #1] [Pipeline] { (Skipped Stage)
+   1.607 [test0 #1] Stage "Skipped Stage" skipped due to earlier failure(s)
+   1.607 [test0 #1] [Pipeline] }
+   1.657 [test0 #1] [Pipeline] // stage
+   1.658 [test0 #1] [Pipeline] End of Pipeline
+   1.704 [test0 #1] ERROR: failed
+   1.704 [test0 #1] Finished: FAILURE
+   1.706 [id=433]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.729 [id=433]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.792 [id=433]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h16561704931364233
+=== Starting treeTimestamps(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.006 [id=489]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:42671/jenkins/
+   0.115 [id=502]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.116 [id=511]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.116 [id=501]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h10669286224463510954/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.227 [id=508]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.235 [id=501]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.235 [id=506]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.236 [id=514]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.471 [id=502]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.472 [id=507]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.473 [id=508]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.492 [id=516]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.601 [test0 #1] Started
+   0.601 [test0 #1] [Pipeline] Start of Pipeline
+   0.652 [test0 #1] [Pipeline] parallel
+   0.652 [test0 #1] [Pipeline] { (Branch: 1)
+   0.652 [test0 #1] [Pipeline] { (Branch: 2)
+Blocking 2/1
+Unblocking 2/1 as success
+   0.702 [test0 #1] [Pipeline] }
+   0.702 [test0 #1] [Pipeline] semaphore
+   0.738 [id=80]	WARNING	o.j.p.w.cps.CpsThreadGroup#saveProgramIfPossible: program state save failed
+an exception which occurred:
+	in field com.cloudbees.groovy.cps.Outcome.normal
+	in object com.cloudbees.groovy.cps.Outcome@17add8c1
+	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler.outcomes
+	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler@35f2b75f
+	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler$Callback.handler
+	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler$Callback@68755b67
+	in field org.jenkinsci.plugins.workflow.cps.CpsBodyExecution.callbacks
+	in object org.jenkinsci.plugins.workflow.cps.CpsBodyExecution@6132518a
+	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStepExecution.bodies
+	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStepExecution@652641eb
+	in field org.jenkinsci.plugins.workflow.cps.CpsThread.step
+	in object org.jenkinsci.plugins.workflow.cps.CpsThread@3eaf64f1
+	in field org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.threads
+	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@3f51b8d0
+	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@3f51b8d0
+Caused: java.io.NotSerializableException: org.jenkinsci.plugins.workflow.job.WorkflowRun
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:274)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+	at org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+	at org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+	at org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:345)
+	at java.base/java.util.HashMap.internalWriteEntries(HashMap.java:1857)
+	at java.base/java.util.HashMap.writeObject(HashMap.java:1412)
+	at org.jboss.marshalling.reflect.JDKSpecific$SerMethods.callWriteObject(JDKSpecific.java:89)
+	at org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:199)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1089)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.RiverMarshaller.writeKnownObject(RiverMarshaller.java:696)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:217)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.RiverMarshaller.writeKnownObject(RiverMarshaller.java:696)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:217)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+	at org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+	at org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+	at org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:345)
+	at java.base/java.util.HashMap.internalWriteEntries(HashMap.java:1857)
+	at java.base/java.util.HashMap.writeObject(HashMap.java:1412)
+	at org.jboss.marshalling.reflect.JDKSpecific$SerMethods.callWriteObject(JDKSpecific.java:89)
+	at org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:199)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1089)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+	at org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)
+	at org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:116)
+	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.lambda$writeObject$1(RiverWriter.java:144)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:331)
+	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.writeObject(RiverWriter.java:143)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:579)
+Caused: java.io.IOException: Failed to persist /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h10669286224463510954/jobs/test0/builds/1/program.dat
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:591)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:556)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgramIfPossible(CpsThreadGroup.java:539)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:463)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:330)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:294)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+   0.752 [test0 #1] [Pipeline] }
+   0.802 [test0 #1] [Pipeline] // parallel
+   0.853 [test0 #1] [Pipeline] End of Pipeline
+   0.853 [test0 #1] an exception which occurred:
+   0.853 [test0 #1] 	in field com.cloudbees.groovy.cps.Outcome.normal
+   0.853 [test0 #1] 	in object com.cloudbees.groovy.cps.Outcome@17add8c1
+   0.853 [test0 #1] 	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler.outcomes
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler@35f2b75f
+   0.853 [test0 #1] 	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler$Callback.handler
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler$Callback@68755b67
+   0.853 [test0 #1] 	in field org.jenkinsci.plugins.workflow.cps.CpsBodyExecution.callbacks
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.CpsBodyExecution@6132518a
+   0.853 [test0 #1] 	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStepExecution.bodies
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStepExecution@652641eb
+   0.853 [test0 #1] 	in field org.jenkinsci.plugins.workflow.cps.CpsThread.step
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.CpsThread@3eaf64f1
+   0.853 [test0 #1] 	in field org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.threads
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@3f51b8d0
+   0.853 [test0 #1] 	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@3f51b8d0
+   0.853 [test0 #1] Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 37b16b66-bda1-4282-befb-5f141ab9741f
+   0.853 [test0 #1] Caused: java.io.NotSerializableException: org.jenkinsci.plugins.workflow.job.WorkflowRun
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:274)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+   0.853 [test0 #1] 	at org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+   0.853 [test0 #1] 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:345)
+   0.853 [test0 #1] 	at java.base/java.util.HashMap.internalWriteEntries(HashMap.java:1857)
+   0.853 [test0 #1] 	at java.base/java.util.HashMap.writeObject(HashMap.java:1412)
+   0.853 [test0 #1] 	at org.jboss.marshalling.reflect.JDKSpecific$SerMethods.callWriteObject(JDKSpecific.java:89)
+   0.853 [test0 #1] 	at org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:199)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1089)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.writeKnownObject(RiverMarshaller.java:696)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:217)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.writeKnownObject(RiverMarshaller.java:696)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:217)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+   0.853 [test0 #1] 	at org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+   0.853 [test0 #1] 	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:345)
+   0.853 [test0 #1] 	at java.base/java.util.HashMap.internalWriteEntries(HashMap.java:1857)
+   0.853 [test0 #1] 	at java.base/java.util.HashMap.writeObject(HashMap.java:1412)
+   0.853 [test0 #1] 	at org.jboss.marshalling.reflect.JDKSpecific$SerMethods.callWriteObject(JDKSpecific.java:89)
+   0.853 [test0 #1] 	at org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:199)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1089)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1143)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1101)
+   0.853 [test0 #1] 	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:268)
+   0.853 [test0 #1] 	at org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)
+   0.853 [test0 #1] 	at org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:116)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.lambda$writeObject$1(RiverWriter.java:144)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:331)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.writeObject(RiverWriter.java:143)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:579)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:556)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgramIfPossible(CpsThreadGroup.java:539)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:463)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:330)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:294)
+   0.853 [test0 #1] 	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+   0.853 [test0 #1] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+   0.853 [test0 #1] 	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+   0.853 [test0 #1] 	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+   0.853 [test0 #1] 	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+   0.853 [test0 #1] 	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+   0.853 [test0 #1] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+   0.853 [test0 #1] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+   0.853 [test0 #1] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+   0.853 [test0 #1] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+   0.853 [test0 #1] 	at java.base/java.lang.Thread.run(Thread.java:834)
+   0.853 [test0 #1] Finished: FAILURE
+   0.858 [id=489]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.868 [id=489]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.924 [id=489]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h10669286224463510954
+=== Starting treeForInProgressParallelBranchOrdering(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.006 [id=546]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:42385/jenkins/
+   0.110 [id=559]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.111 [id=572]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.112 [id=573]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h8819443950271524989/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.212 [id=568]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.219 [id=559]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.220 [id=560]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.220 [id=559]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.610 [id=563]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.610 [id=564]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.612 [id=571]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.632 [id=563]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.702 [test0 #1] Started
+   0.752 [test0 #1] [Pipeline] Start of Pipeline
+   0.802 [test0 #1] [Pipeline] parallel
+   0.802 [test0 #1] [Pipeline] { (Branch: 1)
+   0.802 [test0 #1] [Pipeline] { (Branch: 2)
+   0.802 [test0 #1] [Pipeline] { (Branch: 3)
+Blocking 2/1
+   0.853 [test0 #1] [Pipeline] { (Branch: 4)
+   0.853 [test0 #1] [Pipeline] }
+   0.853 [test0 #1] [Pipeline] semaphore
+Blocking 4/1
+Unblocking 2/1 as success
+Unblocking 4/1 as success
+   0.903 [test0 #1] [Pipeline] }
+   0.903 [test0 #1] [Pipeline] semaphore
+   0.953 [test0 #1] [Pipeline] }
+   0.953 [test0 #1] [Pipeline] }
+   1.003 [test0 #1] [Pipeline] // parallel
+   1.053 [test0 #1] [Pipeline] End of Pipeline
+   1.053 [test0 #1] Finished: SUCCESS
+   1.054 [id=546]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.077 [id=546]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.135 [id=546]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h8819443950271524989
+=== Starting computeFlowGraphTreeComplexPipeline(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.006 [id=602]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:42871/jenkins/
+   0.112 [id=615]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.113 [id=624]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.114 [id=616]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h17620447697444320297/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.213 [id=629]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.220 [id=614]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.221 [id=620]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.221 [id=625]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.677 [id=625]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.677 [id=627]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.678 [id=616]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.698 [id=625]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.801 [test0 #1] Started
+   0.802 [test0 #1] [Pipeline] Start of Pipeline
+   0.852 [test0 #1] [Pipeline] stage
+   0.852 [test0 #1] [Pipeline] { (Start)
+   0.902 [test0 #1] [Pipeline] stage
+   0.902 [test0 #1] [Pipeline] { (Start-1)
+   0.952 [test0 #1] [Pipeline] }
+   0.952 [test0 #1] [Pipeline] // stage
+   1.003 [test0 #1] [Pipeline] stage
+   1.003 [test0 #1] [Pipeline] { (Start-2)
+   1.003 [test0 #1] [Pipeline] }
+   1.053 [test0 #1] [Pipeline] // stage
+   1.053 [test0 #1] [Pipeline] }
+   1.103 [test0 #1] [Pipeline] // stage
+   1.103 [test0 #1] [Pipeline] parallel
+   1.103 [test0 #1] [Pipeline] { (Branch: Branch 1)
+   1.103 [test0 #1] [Pipeline] { (Branch: Branch 2)
+   1.154 [test0 #1] [Pipeline] }
+   1.154 [test0 #1] [Pipeline] }
+   1.204 [test0 #1] [Pipeline] // parallel
+   1.254 [test0 #1] [Pipeline] stage
+   1.254 [test0 #1] [Pipeline] { (Outer)
+   1.254 [test0 #1] [Pipeline] parallel
+   1.254 [test0 #1] [Pipeline] { (Branch: Outer-A)
+   1.305 [test0 #1] [Pipeline] { (Branch: Outer-B)
+   1.305 [test0 #1] [Pipeline] stage
+   1.305 [test0 #1] [Pipeline] { (Outer-A-1)
+   1.355 [test0 #1] [Pipeline] stage
+   1.355 [test0 #1] [Pipeline] { (Outer-B-1)
+   1.355 [test0 #1] [Pipeline] }
+   1.405 [test0 #1] [Pipeline] }
+   1.405 [test0 #1] [Pipeline] // stage
+   1.455 [test0 #1] [Pipeline] // stage
+   1.456 [test0 #1] [Pipeline] parallel
+   1.456 [test0 #1] [Pipeline] { (Branch: Outer-A-Inner-A)
+   1.456 [test0 #1] [Pipeline] { (Branch: Outer-A-Inner-B)
+   1.506 [test0 #1] [Pipeline] }
+   1.506 [test0 #1] [Pipeline] stage
+   1.506 [test0 #1] [Pipeline] { (Outer-A-Inner-A-1)
+   1.556 [test0 #1] [Pipeline] }
+   1.556 [test0 #1] [Pipeline] }
+   1.606 [test0 #1] [Pipeline] // stage
+   1.606 [test0 #1] [Pipeline] }
+   1.657 [test0 #1] [Pipeline] // parallel
+   1.657 [test0 #1] [Pipeline] }
+   1.707 [test0 #1] [Pipeline] // parallel
+   1.707 [test0 #1] [Pipeline] }
+   1.757 [test0 #1] [Pipeline] // stage
+   1.808 [test0 #1] [Pipeline] stage
+   1.808 [test0 #1] [Pipeline] { (End)
+   1.808 [test0 #1] [Pipeline] }
+   1.858 [test0 #1] [Pipeline] // stage
+   1.858 [test0 #1] [Pipeline] End of Pipeline
+   1.875 [test0 #1] Finished: SUCCESS
+   1.877 [id=602]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.900 [id=602]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.955 [id=602]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h17620447697444320297
+=== Starting computeFlowGraphTreeSuppressesRedundantDeclarativeStages(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.007 [id=658]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:40133/jenkins/
+   0.138 [id=671]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.139 [id=671]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.139 [id=679]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h11899767404170630045/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.243 [id=670]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.249 [id=677]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.250 [id=678]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.250 [id=679]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.558 [id=679]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.559 [id=670]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.564 [id=685]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.585 [id=679]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.701 [test0 #1] Started
+   0.702 [test0 #1] [Pipeline] Start of Pipeline
+   0.852 [test0 #1] [Pipeline] stage
+   0.903 [test0 #1] [Pipeline] { (Outer)
+   0.903 [test0 #1] [Pipeline] parallel
+   0.953 [test0 #1] [Pipeline] { (Branch: MyUnstable)
+   0.953 [test0 #1] [Pipeline] { (Branch: MyFailure)
+   0.953 [test0 #1] [Pipeline] { (Branch: MySuccess)
+   1.003 [test0 #1] [Pipeline] stage
+   1.003 [test0 #1] [Pipeline] { (MyUnstable)
+   1.003 [test0 #1] [Pipeline] stage
+   1.053 [test0 #1] [Pipeline] { (MyFailure)
+   1.053 [test0 #1] [Pipeline] stage
+   1.053 [test0 #1] [Pipeline] { (MySuccess)
+   1.104 [test0 #1] [Pipeline] unstable
+   1.104 [test0 #1] WARNING: warning message
+   1.104 [test0 #1] [Pipeline] }
+   1.154 [test0 #1] [Pipeline] error
+   1.204 [test0 #1] [Pipeline] }
+   1.204 [test0 #1] [Pipeline] echo
+   1.204 [test0 #1] success message
+   1.204 [test0 #1] [Pipeline] }
+   1.254 [test0 #1] [Pipeline] // stage
+   1.254 [test0 #1] [Pipeline] // stage
+   1.305 [test0 #1] [Pipeline] // stage
+   1.305 [test0 #1] [Pipeline] }
+   1.355 [test0 #1] [Pipeline] }
+   1.355 [test0 #1] Failed in branch MyFailure
+   1.355 [test0 #1] [Pipeline] }
+   1.455 [test0 #1] [Pipeline] // parallel
+   1.455 [test0 #1] [Pipeline] }
+   1.506 [test0 #1] [Pipeline] // stage
+   1.556 [test0 #1] [Pipeline] End of Pipeline
+   1.556 [test0 #1] ERROR: error message
+   1.573 [test0 #1] Finished: FAILURE
+   1.575 [id=658]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.593 [id=658]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.726 [id=658]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h11899767404170630045
+=== Starting computeFlowNodesForFilterForInProgressBuild(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.048 [id=714]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:35817/jenkins/
+   0.333 [id=727]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.335 [id=739]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.337 [id=741]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h14620880510909263917/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.747 [id=726]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.783 [id=731]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.791 [id=732]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.793 [id=727]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   4.829 [id=727]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   4.829 [id=726]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   4.833 [id=731]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   4.857 [id=727]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   4.973 [test0 #1] Started
+   5.075 [test0 #1] [Pipeline] Start of Pipeline
+   5.125 [test0 #1] [Pipeline] parallel
+   5.126 [test0 #1] [Pipeline] { (Branch: one)
+   5.176 [test0 #1] [Pipeline] { (Branch: two)
+   5.177 [test0 #1] [Pipeline] semaphore
+Blocking one/1
+Blocking two/1
+Unblocking one/1 as success
+Unblocking two/1 as success
+   5.227 [test0 #1] [Pipeline] semaphore
+   5.278 [test0 #1] [Pipeline] echo
+   5.278 [test0 #1] one done
+   5.278 [test0 #1] [Pipeline] }
+   5.329 [test0 #1] [Pipeline] echo
+   5.329 [test0 #1] two done
+   5.329 [test0 #1] [Pipeline] }
+   5.379 [test0 #1] [Pipeline] // parallel
+   5.430 [test0 #1] [Pipeline] End of Pipeline
+   5.451 [test0 #1] Finished: SUCCESS
+   5.457 [id=714]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   6.489 [id=714]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   6.704 [id=714]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h14620880510909263917
+=== Starting treeForInProgressNestedOneBranchParallel(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.018 [id=770]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:46825/jenkins/
+   0.438 [id=783]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.441 [id=792]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.445 [id=784]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h5706458579425836556/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   1.055 [id=784]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   1.103 [id=795]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   1.106 [id=785]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.108 [id=785]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   2.840 [id=791]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   2.841 [id=785]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   2.842 [id=788]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   2.871 [id=784]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   3.008 [test0 #1] Started
+   3.059 [test0 #1] [Pipeline] Start of Pipeline
+   3.109 [test0 #1] [Pipeline] parallel
+   3.160 [test0 #1] [Pipeline] { (Branch: outerA)
+   3.160 [test0 #1] [Pipeline] { (Branch: outerB)
+   3.211 [test0 #1] [Pipeline] parallel
+   3.211 [test0 #1] [Pipeline] { (Branch: innerA)
+   3.212 [test0 #1] [Pipeline] }
+Blocking innerA/1
+Unblocking innerA/1 as success
+   3.262 [test0 #1] [Pipeline] semaphore
+   3.313 [test0 #1] [Pipeline] }
+   3.364 [test0 #1] [Pipeline] // parallel
+   3.364 [test0 #1] [Pipeline] }
+   3.415 [test0 #1] [Pipeline] // parallel
+   3.466 [test0 #1] [Pipeline] End of Pipeline
+   3.466 [test0 #1] Finished: SUCCESS
+   3.487 [id=770]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.508 [id=770]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.711 [id=770]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h5706458579425836556
+=== Starting computeFlowGraphTreeWithErrors(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.020 [id=826]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:38995/jenkins/
+   0.370 [id=839]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.372 [id=840]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.374 [id=853]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13126658490125243531/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.871 [id=853]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.907 [id=838]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.908 [id=838]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.910 [id=845]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   2.933 [id=845]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   2.934 [id=845]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   2.937 [id=852]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   2.962 [id=850]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   3.060 [test0 #1] Started
+   3.111 [test0 #1] [Pipeline] Start of Pipeline
+   3.161 [test0 #1] [Pipeline] stage
+   3.161 [test0 #1] [Pipeline] { (Failure)
+   3.212 [test0 #1] [Pipeline] stage
+   3.212 [test0 #1] [Pipeline] { (Unstable)
+   3.262 [test0 #1] [Pipeline] unstable
+   3.313 [test0 #1] WARNING: just a warning
+   3.313 [test0 #1] [Pipeline] }
+   3.313 [test0 #1] [Pipeline] // stage
+   3.363 [test0 #1] [Pipeline] error
+   3.363 [test0 #1] [Pipeline] }
+   3.414 [test0 #1] [Pipeline] // stage
+   3.464 [test0 #1] [Pipeline] End of Pipeline
+   3.507 [test0 #1] ERROR: my error message
+   3.507 [test0 #1] Finished: FAILURE
+   3.565 [test0 #2] Started
+   3.616 [test0 #2] [Pipeline] Start of Pipeline
+   3.667 [test0 #2] [Pipeline] stage
+   3.667 [test0 #2] [Pipeline] { (Success)
+   3.717 [test0 #2] [Pipeline] error
+   3.717 [test0 #2] [Pipeline] }
+   3.768 [test0 #2] [Pipeline] // stage
+   3.768 [test0 #2] [Pipeline] End of Pipeline
+   3.802 [test0 #2] Finished: SUCCESS
+   3.808 [id=826]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.835 [id=826]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.920 [id=826]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13126658490125243531
+=== Starting treeForInProgressNestedParallel(com.cloudbees.jenkins.plugins.pipeline.explorer.log.api.FlowNodeInfoUtilsTest)
+   0.013 [id=887]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:34803/jenkins/
+   0.185 [id=900]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.186 [id=911]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.188 [id=906]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h3464064448533680703/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.391 [id=910]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.403 [id=909]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.404 [id=902]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.404 [id=903]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.576 [id=903]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.576 [id=905]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.578 [id=910]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.602 [id=903]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.704 [test0 #1] Started
+   1.755 [test0 #1] [Pipeline] Start of Pipeline
+   1.805 [test0 #1] [Pipeline] stage
+   1.856 [test0 #1] [Pipeline] { (MyStage)
+   1.906 [test0 #1] [Pipeline] parallel
+   1.906 [test0 #1] [Pipeline] { (Branch: outerA)
+   1.907 [test0 #1] [Pipeline] { (Branch: outerB)
+   1.907 [test0 #1] [Pipeline] { (Branch: outerC)
+Blocking outerA/1
+   1.957 [test0 #1] [Pipeline] semaphore
+   1.957 [test0 #1] [Pipeline] }
+   2.008 [test0 #1] [Pipeline] parallel
+   2.008 [test0 #1] [Pipeline] { (Branch: innerA)
+   2.008 [test0 #1] [Pipeline] { (Branch: innerB)
+Blocking innerB/1
+Unblocking outerA/1 as success
+Unblocking innerB/1 as success
+   2.058 [test0 #1] [Pipeline] }
+   2.058 [test0 #1] [Pipeline] semaphore
+   2.109 [test0 #1] [Pipeline] }
+   2.109 [test0 #1] [Pipeline] }
+   2.159 [test0 #1] [Pipeline] // parallel
+   2.210 [test0 #1] [Pipeline] }
+   2.260 [test0 #1] [Pipeline] // parallel
+   2.260 [test0 #1] [Pipeline] }
+   2.310 [test0 #1] [Pipeline] // stage
+   2.310 [test0 #1] [Pipeline] End of Pipeline
+   2.341 [test0 #1] Finished: SUCCESS
+   2.343 [id=887]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   3.365 [id=887]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   3.435 [id=887]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h3464064448533680703

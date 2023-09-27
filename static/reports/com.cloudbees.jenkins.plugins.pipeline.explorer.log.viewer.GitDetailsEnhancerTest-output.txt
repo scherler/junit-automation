@@ -1,0 +1,103 @@
+=== Starting testGitInformationRetrievementFromMultibranchPipeline(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.GitDetailsEnhancerTest)
+   0.061 [id=19]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at /src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test
+   0.325 [id=19]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:45693/jenkins/
+   0.833 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   1.136 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins3760443126701115968/plugins/javax-mail-api.jpi
+   1.598 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins3760443126701115968/plugins/command-launcher.jpi
+   1.605 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins3760443126701115968/plugins/jdk-tool.jpi
+   1.613 [id=46]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins3760443126701115968/plugins/sshd.jpi
+   1.894 [id=38]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   1.909 [id=35]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h2916821589215001254/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   3.236 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   3.312 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   3.313 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   3.332 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   5.162 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   5.162 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   5.163 [id=39]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   5.295 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit10927766611421300376] $ git version
+git version 2.39.3
+[junit12105430453420017963] $ git init --template=
+Initialized empty Git repository in /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/junit10927766611421300376/junit12105430453420017963/.git/
+$ git --version
+[junit12105430453420017963] $ git branch -m master
+[junit12105430453420017963] $ git add file
+[junit12105430453420017963] $ git config user.name "Git SampleRepoRule"
+[junit12105430453420017963] $ git config user.email gits@mplereporule
+[junit12105430453420017963] $ git config init.defaultbranch master
+[junit12105430453420017963] $ git config commit.gpgsign false
+[junit12105430453420017963] $ git commit --message=init
+[master (root-commit) 8197ed9] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit12105430453420017963] $ git add Jenkinsfile
+[junit12105430453420017963] $ git commit "--message=Jenkinsfile added"
+[master 51d18c5] Jenkinsfile added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Jenkinsfile
+[junit12105430453420017963] $ git add README.md
+[junit12105430453420017963] $ git commit "--message=README.md added"
+[master fb25928] README.md added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+  16.989 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+  18.027 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+  18.063 [id=19]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h2916821589215001254
+=== Starting testGitInformationRetrievementFromPipeline(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.GitDetailsEnhancerTest)
+   0.010 [id=283]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:34587/jenkins/
+   0.123 [id=301]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.123 [id=302]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.124 [id=307]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h9930345269394017582/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.237 [id=304]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.247 [id=313]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.247 [id=306]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.248 [id=304]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.778 [id=315]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.778 [id=310]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.778 [id=310]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.800 [id=315]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   0.997 [id=283]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   2.007 [id=283]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   2.045 [id=283]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h9930345269394017582
+=== Starting testGitInformationRetrievementFromScmPipeline(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.GitDetailsEnhancerTest)
+   0.011 [id=343]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:37207/jenkins/
+   0.117 [id=356]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.118 [id=365]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.119 [id=364]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13074560460506093594/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.222 [id=366]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.232 [id=355]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.233 [id=360]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.233 [id=369]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.642 [id=357]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.643 [id=363]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.643 [id=370]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.671 [id=357]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit1093171140116620902] $ git version
+git version 2.39.3
+[junit1742746649339369977] $ git init --template=
+Initialized empty Git repository in /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/junit1093171140116620902/junit1742746649339369977/.git/
+$ git --version
+[junit1742746649339369977] $ git branch -m master
+[junit1742746649339369977] $ git add file
+[junit1742746649339369977] $ git config user.name "Git SampleRepoRule"
+[junit1742746649339369977] $ git config user.email gits@mplereporule
+[junit1742746649339369977] $ git config init.defaultbranch master
+[junit1742746649339369977] $ git config commit.gpgsign false
+[junit1742746649339369977] $ git commit --message=init
+[master (root-commit) 1e1778c] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit1742746649339369977] $ git add flow.groovy
+[junit1742746649339369977] $ git commit --message=next
+[master 87bdd47] next
+ 1 file changed, 1 insertion(+)
+ create mode 100644 flow.groovy
+[junit1742746649339369977] $ git add flow.groovy
+[junit1742746649339369977] $ git commit --message=next
+[master 465c869] next
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+   1.573 [id=351]	INFO	h.triggers.SCMTrigger$Runner#run: SCM changes detected in Pipeline. Triggering  #2
+  10.394 [id=343]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+  11.417 [id=343]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+  11.467 [id=343]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h13074560460506093594

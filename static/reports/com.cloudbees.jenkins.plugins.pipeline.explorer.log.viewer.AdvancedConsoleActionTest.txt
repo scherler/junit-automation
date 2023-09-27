@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.71 s -- in com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.AdvancedConsoleActionTest

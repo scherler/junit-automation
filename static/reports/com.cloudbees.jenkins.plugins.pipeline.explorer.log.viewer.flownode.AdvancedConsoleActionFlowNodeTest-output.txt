@@ -1,0 +1,61 @@
+=== Starting getUrl(com.cloudbees.jenkins.plugins.pipeline.explorer.log.viewer.flownode.AdvancedConsoleActionFlowNodeTest)
+   0.045 [id=20]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at /src/jenkins/plugins/cloudbees-console-log-viewer/target/jenkins-for-test
+   0.249 [id=20]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:44565/jenkins/
+   0.769 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.973 [id=47]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins15230752771197085019/plugins/javax-mail-api.jpi
+   1.294 [id=43]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins15230752771197085019/plugins/command-launcher.jpi
+   1.299 [id=43]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins15230752771197085019/plugins/jdk-tool.jpi
+   1.304 [id=43]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/jenkins15230752771197085019/plugins/sshd.jpi
+   1.500 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   1.514 [id=40]	INFO	j.b.api.BouncyCastlePlugin#start: /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h11327904488330896167/plugins/bouncycastle-api/WEB-INF/optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   2.618 [id=46]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   2.664 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   2.667 [id=38]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   2.683 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   3.524 [id=43]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   3.524 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   3.525 [id=39]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   3.638 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   3.796 [test0 #1] Started
+   4.349 [test0 #1] [Pipeline] Start of Pipeline
+   5.105 [test0 #1] [Pipeline] stage
+   5.105 [test0 #1] [Pipeline] { (Parallel Wrapper)
+   5.256 [test0 #1] [Pipeline] parallel
+   5.307 [test0 #1] [Pipeline] { (Branch: Skipped Branch)
+   5.307 [test0 #1] [Pipeline] { (Branch: Executed Branch)
+   5.357 [test0 #1] [Pipeline] stage
+   5.357 [test0 #1] [Pipeline] { (Skipped Branch)
+   5.357 [test0 #1] [Pipeline] stage
+   5.408 [test0 #1] [Pipeline] { (Executed Branch)
+   5.458 [test0 #1] Stage "Skipped Branch" skipped due to when conditional
+   5.559 [test0 #1] [Pipeline] }
+   5.609 [test0 #1] [Pipeline] // stage
+   5.609 [test0 #1] [Pipeline] }
+   5.610 [test0 #1] [Pipeline] echo
+   5.660 [test0 #1] used
+   5.660 [test0 #1] [Pipeline] }
+   5.660 [test0 #1] [Pipeline] // stage
+   5.710 [test0 #1] [Pipeline] }
+   5.761 [test0 #1] [Pipeline] // parallel
+   5.761 [test0 #1] [Pipeline] }
+   5.811 [test0 #1] [Pipeline] // stage
+   5.811 [test0 #1] [Pipeline] stage
+   5.862 [test0 #1] [Pipeline] { (Failed Stage)
+   5.862 [test0 #1] [Pipeline] echo
+   5.912 [test0 #1] just here so the stage has log output
+   5.912 [test0 #1] [Pipeline] echo
+   5.912 [test0 #1] another output
+   5.912 [test0 #1] [Pipeline] error
+   5.963 [test0 #1] [Pipeline] }
+   6.013 [test0 #1] [Pipeline] // stage
+   6.063 [test0 #1] [Pipeline] stage
+   6.064 [test0 #1] [Pipeline] { (Skipped Stage)
+   6.064 [test0 #1] Stage "Skipped Stage" skipped due to earlier failure(s)
+   6.114 [test0 #1] [Pipeline] }
+   6.164 [test0 #1] [Pipeline] // stage
+   6.215 [test0 #1] [Pipeline] End of Pipeline
+   6.215 [test0 #1] ERROR: failed
+   6.237 [test0 #1] Finished: FAILURE
+   6.250 [id=20]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   7.277 [id=20]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   7.315 [id=20]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /src/jenkins/plugins/cloudbees-console-log-viewer/target/tmp/j h11327904488330896167
